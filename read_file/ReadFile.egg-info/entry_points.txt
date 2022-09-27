@@ -1,0 +1,2 @@
+[console_scripts]
+readfile = read_file.main:main
