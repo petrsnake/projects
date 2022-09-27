@@ -56,9 +56,8 @@ class Animal:
 
 # ted ji jdu inicializovat
 # spust tento program
-
 dog_animal = Animal("dog", 1) # zde jde o psa a zasteka 1x
-cat_animal = Animal("cat", 3) # zde o kocku a zasteka 3x
+cat_animal = Animal("cat", 3) # zde o kocku a zamnouka 3x
 
 # - az pochopis to co je nad timto tak
 # odkomentuj to co je nize a spust znovu 
