@@ -8,3 +8,4 @@ while True:
     finally:
         if a == 1:
             break
+# Demonstrace chycení výjimky
