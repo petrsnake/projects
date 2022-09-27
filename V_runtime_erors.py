@@ -5,3 +5,4 @@
 # když není v programu kód pro ošetření, ukončí se program
 
 # try, except, finally, as
+#66
