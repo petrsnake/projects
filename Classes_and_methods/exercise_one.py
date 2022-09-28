@@ -18,13 +18,14 @@ class Colors:
         self.color = color
         self.darkness = darknes
 
-    def __str__(self):
+    def get_info(self):
         return f'Objekt {self} má barvu {self.color}. Je tmavý {self.darkness}'
     
     def ShitTalk(self):
-        print(str(self.__str__))
+        print(self.get_info())
 
 modra = Colors('modrá', True)
 zluta = Colors('žlutá', False)
 
 modra.ShitTalk()    # Proč to nevypíše tu větu z metody __str__()? 
+print ("__str__ dunder metoda -- ", modra.__str__())
