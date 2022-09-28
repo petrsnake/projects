@@ -23,6 +23,15 @@ from unittest import makeSuite
 # Statické:  pracuje pro metodu; nepotřebuje parametr instance/třídy (self); 
 
 
+# Metody __repr__() a __str__()     (patří k "dunder methods")
+# Vrací systémový a uživatelský podpis
+# Měly by převést objekt na popisový string
+
+
+
+
+
+# Praktické ukázky
 class ExerciseClass:
     """tato třída je první pokus o pochopení tříd a metod
     """
@@ -61,6 +70,6 @@ cat_animal = Animal("cat", 3) # zde o kocku a zamnouka 3x
 
 # - az pochopis to co je nad timto tak
 # odkomentuj to co je nize a spust znovu 
-# dog_animal.take_a_shit()
-# cat_animal.take_a_shit()
+dog_animal.take_a_shit()
+cat_animal.take_a_shit()
     
