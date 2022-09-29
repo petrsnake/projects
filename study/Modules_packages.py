@@ -1,7 +1,7 @@
 #import modulu
-import Turtle                   #import celého modulu
-from Turtle import turtle       #import funkce z modulu
-from Turtle import turtle as TT #import f. jako objekt 'TT'
+import turtle                   #import celého modulu
+from turtle import Turtle       #import funkce z modulu
+from turtle import Turtle as TT #import f. jako objekt 'TT'
 
 #zajímavý modul o čase
 from time import sleep
