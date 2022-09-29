@@ -17,6 +17,9 @@ class Colors:
     def __init__(self, color:str, darknes:bool):
         self.color = color
         self.darkness = darknes
+            
+    def __str__(self):
+        return f"Objekt {self.__repr__()} ma barvu {self.color}."
 
     def get_info(self):
         return f'Objekt {self} má barvu {self.color}. Je tmavý {self.darkness}'
