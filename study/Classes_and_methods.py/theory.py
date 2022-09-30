@@ -20,15 +20,20 @@ from unittest import makeSuite
 # Metody:           Instanční:  
 #                   Statické:   
 # Instanční: schopnosti instancí; počáteční parametr "self"; 
-# Statické:  pracuje pro metodu; nepotřebuje parametr instance/třídy (self); 
+# Statické:  pracuje pro metodu; nepotřebuje parametr instance/třídy (self); instance nemusí být vytvořena; 
+
+#Ukázka statické metody play():
+class Music():
+    @staticmethod
+    def play():
+        print('Play the song')
+
+Music.play()
 
 
 # Metody __repr__() a __str__()     (patří k "dunder methods")
 # Vrací systémový a uživatelský podpis
 # Měly by převést objekt na popisový string
-
-
-
 
 
 # Praktické ukázky

@@ -20,7 +20,7 @@ hanygerka = Human(purpose = 'be bitch', beauty= 'ugly as shit')
 
 
 # Nemám tušení jak udělat aby to psalo jméno toho oběktu, aniž bych té kláse vytvářel novou proměnou. Jde to vůbec?
-
+# Asi to nejde
         
     
 
